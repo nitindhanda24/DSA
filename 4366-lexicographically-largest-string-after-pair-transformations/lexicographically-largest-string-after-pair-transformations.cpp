@@ -14,7 +14,7 @@ public:
                 int last = x % 2;
                 if (last == 1) {
                    s+=ch;
-                    x -= 1;
+                   // x -= 1;
                 }
                 x /= 2;
                 ch++;
